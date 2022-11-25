@@ -1,0 +1,59 @@
+.join-button {
+    background-color: rgb(102, 65, 175);
+    border: none;
+    border-radius: 20px; /* corner of button*/ 
+    height: 40px;
+    width: 90px;
+    color: rgb(241, 236, 236);
+    cursor: pointer;
+    margin-right: 8px; /*move button */
+    transition: box-shadow 0.5s;/*eg:opacity changing time*/
+    
+}
+
+.join-button:hover{
+    opacity:0.8;
+    transition: background-color 0.6,
+    color 1s;
+    padding-left:20px; /* creating space inside the button */
+    box-shadow: 5px 5px 10px black;/* shadow behind the buttton */
+}
+.tweet-button {
+    background-color:rgb(2, 137, 255); 
+    border-color:rgb(2, 137, 255);
+    border-style: solid; /* button border */
+    border-radius: 30px;
+    height: 30px;
+    color: white;
+    width: 70px;
+    margin-left: 9px;
+    transition: 0.4s;    
+
+}
+.tweet-button:hover {
+    background-color: white;
+    color:rgb(2, 137, 255);
+    border-color:rgb(2, 137, 255);
+}
+.like-button {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(65, 210, 230);
+    border-style: solid;
+    color: rgb(29, 170, 212);
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition:background-color 0.15s,
+    color 0.15s; 
+    
+}
+.like-button:hover {
+    opacity: 0.7;
+}
+.like-button:active {
+    background-color: rgb(29, 170, 212);
+    border: none;
+    color:white;
+}
